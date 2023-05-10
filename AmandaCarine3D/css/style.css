@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* justify-content: center; */
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.menu{
+    display: flex;
+    /* background-color: antiquewhite; */
+    width: 1289px;
+}
+
+.tema{
+    justify-content: start;
+    font-size: 20px;
+
+    margin: 10px 10px 10px 15px;
+}
+
+.nav{
+
+    display: flex;
+    margin: 10px 0 0 380px;  
+
+}
+.nav a{
+font-weight: 500;    
+    text-decoration: none;
+    color: #000;
+    margin-left: 15px;
+}
+
+/* --------------------fotos--------------------- */
+
+.linha1{
+    display: flex;
+    
+}
+.foto-2{
+    margin: 1px 0 0 -8px;
+}
+
+.linha2{
+    margin: -14px;
+}
+
+.linha3{
+    margin: 9px 0 0 0;
+    margin-left: -8px;
+}
+
+
+.roda-pe{
+    width: 1280px;
+    height: 200px;
+
+    background-color: #000;
+    color: #fff;
+}
+
+.roda-pe h3{
+    margin-left:  550px;
+    padding: 30px;
+
+    font-weight: 700;
+}
+
+.roda-pe p{
+
+    font-weight: 700;
+
+    padding: 20px 0 0 10px;
+}
+
+
+/* -------------------------------------------------------------- */
+
+.base{
+    position: relative;
+    z-index: 1;
+}
+.fundo{
+position: relative;
+
+    background-color: rgba(0, 0, 0, 0.384);
+
+    width: 1280px;
+    height: 3343px;
+
+    top: -3343px;
+
+    display:   flex;
+    z-index: 2;
+}
+
+.espaco-login{
+    position: relative;
+    z-index: 3;
+
+    background-color: #fff;
+    border-radius: 20px;
+
+    width: 900px;
+    height: 500px;
+
+    top: -5500px;
+    left: 150px;
+}
